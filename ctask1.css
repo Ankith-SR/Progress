@@ -1,0 +1,27 @@
+div > table {
+  border: 1px solid black;
+  background-color: #96d4d4;
+  table-layout: fixed;
+  width: 60%;
+  border-radius: 10px;
+}
+.one,
+th,
+tr,
+td {
+  border: 1px solid black;
+  table-layout: fixed;
+  width: 60%;
+  border-radius: 10px;
+}
+.two td {
+  border: 2px solid;
+  border-color: rgb(151, 207, 68);
+  height: 35px;
+  width: 60px;
+}
+#box {
+  border-radius: 2px;
+  border-top-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+}

@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+  top: 100px;
+  left: 25%;
+  padding: 0%;
+  border: 2px solid black;
+  width: 600px;
+  height: 450px;
+}
+.sidehoverbar div {
+  position: relative;
+  margin-left: 12px;
+  padding: 10px;
+}
+.sidehoverbar div {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 0px 4px 4px 0px;
+  left: -12px;
+  transition: 0.3s;
+}
+.sidehoverbar div:hover {
+  width: 200px;
+  left: -12px;
+}
+.sidehoverbar a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+.sidehoverbar a:hover {
+  left: 0;
+}
+.about {
+  cursor: pointer;
+  background-color: #04aa6d;
+  top: 22px;
+  width: 32px;
+  height: 35px;
+}
+.blog {
+  cursor: pointer;
+  background-color: #2196f3;
+  top: 30px;
+  width: 32px;
+  height: 35px;
+}
+
+.projects {
+  cursor: pointer;
+  background-color: #f44336;
+  top: 38px;
+  width: 32px;
+  height: 35px;
+}
+.contact {
+  cursor: pointer;
+  background-color: #555;
+  top: 46px;
+  width: 32px;
+  height: 35px;
+}
+.hoverable-topic {
+  position: relative;
+  top: -220px;
+  left: 90px;
+}
